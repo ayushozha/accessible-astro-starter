@@ -70,6 +70,12 @@ Clone this theme locally and run any of the following commands in your terminal:
 | `npm run build`   | Build your production site to `./dist/`      |
 | `npm run preview` | Preview your build locally, before deploying |
 
+## Deploy
+
+`npm run build` outputs a static site to `./dist/`. To deploy it on Wasmer Edge, import this repository. The import does not create a copy in your GitHub account, so import your own fork to deploy your customized site.
+
+[![Deploy to Wasmer](https://img.shields.io/badge/Deploy%20to-Wasmer-171717?logo=wasmer&logoColor=white)](https://wasmer.io/apps/create?github=incluud%2Faccessible-astro-starter)
+
 ## Create a project with the CLI
 
 You can now scaffold projects directly from this starter with the create CLI:
